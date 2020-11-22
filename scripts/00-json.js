@@ -83,8 +83,7 @@ const Trainees = [
     profileUrl: "https://github.com/sumilraweng/blog",
     picUrl:
       "https://github.com/sumilraweng/blog/blob/main/assests/atricle-images/dev.jpg",
-    altDesc:
-      "I  am software engineer at raw engineering with having technical skills like html css react node and mongo with having some knowledge of oops and data structures & algo \n",
+    altDesc: "I  am software engineer",
   },
   {
     timestamp: "11/20/2020 14:02:42",
