@@ -2,7 +2,7 @@ const divRoot = document.getElementById("root");
 
 Trainees.forEach((employee) => {
   const divBox = document.createElement("div");
-  divBox.style = "border: 1px solid black";
+  divBox.classList.add("employee-div");
   divBox.id = employee.empid;
   const profile = employeeProfilePic(employee);
   const para = employeePara(employee);
