@@ -6,7 +6,7 @@ const Employee = function (id, fname, lname, company, picurl, pdesc, prourl) {
   this.email =
     this.firstName + "." + this.lastName + "@" + this.company + ".com";
   this.picUrl = picurl;
-  this.picDescription = pdesc;
+  this.altDesc = pdesc;
   this.profileUrl = prourl;
 };
 
@@ -22,6 +22,7 @@ function createEmployee(fname, lname, company, picurl, pdesc, prourl) {
     pdesc,
     prourl
   );
+  createNewCard(Trainees[i]);
   i++;
   console.log(Trainees);
 }
